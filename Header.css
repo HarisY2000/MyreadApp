@@ -1,0 +1,96 @@
+.label
+{
+    display: flex;
+    justify-content: center;
+    font-family: Lucida Console;
+    font-size: 30px;
+    color: white;
+    top: 25px;
+}
+.nav-link
+{
+    position: absolute;
+    font-size: 20px;
+    top: 20px;
+    left: 10px;
+    color: white;
+
+}
+
+.currentread
+{
+    font-size: 20px;
+    color: black;
+    font-weight: 900;
+    font-family: Arial;
+    position: absolute;
+    top: 120px;
+
+
+}
+.wantread
+{
+    font-size: 20px;
+    color: black;
+    font-weight: 900;
+    font-family: Arial;
+    position: absolute;
+    top: 400px;
+
+
+}
+.read
+{
+    font-size: 20px;
+    color: black;
+    font-weight: 900;
+    font-family: Arial;
+    position: absolute;
+    top: 600px;
+
+
+}
+.fas fa-circle
+{
+    color: green;
+    font-size: 36px;
+    position: absolute;
+    justify-content: center;
+    right: 10px;
+
+}
+.fas fa-plus
+{
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    justify-content: center;
+}
+.bar
+{
+    position: absolute;
+    right: 10px;
+    top: 25px;
+}
+.center
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    grid-gap: 10px;
+    grid-auto-rows: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 100%;
+    bottom: auto;
+    top: 70;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: middle;
+}
+.content
+{
+    position: absolute;
+    align-content: center;
+}
